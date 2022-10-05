@@ -202,7 +202,7 @@ const calculateDamage = (characters, atk) => {
         dmg = throwDice(dmg) * mult;
         if(characters[atk].critic === dmg) {
             dmg = dmg * 2;
-            dmg$$.textContent = dmg + ' de daño! GOLPE CRITICO!!';
+            dmg$$.textContent = 'GOLPE CRITICO!! ' + dmg + ' de daño!';
         }
         else {
             dmg$$.textContent = dmg + ' de daño!';
