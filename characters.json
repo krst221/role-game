@@ -11,7 +11,7 @@
       ],
       "critic": 10,
       "defense": 10,
-      "vitality": 250
+      "vitality": 150
     },
     {
       "id": 2,
@@ -23,7 +23,7 @@
       ],
       "critic": 9,
       "defense": 15,
-      "vitality": 325
+      "vitality": 225
     },
     {
       "id": 3,
@@ -35,7 +35,7 @@
       ],
       "critic": 10,
       "defense": 4,
-      "vitality": 250
+      "vitality": 150
     },
     {
       "id": 1,
@@ -46,7 +46,7 @@
       ],
       "critic": 15,
       "defense": 12,
-      "vitality": 300
+      "vitality": 200
     },
     {
       "id": 1,
@@ -57,7 +57,7 @@
       ],
       "critic": 6,
       "defense": 8,
-      "vitality": 225
+      "vitality": 125
     }
   ]
 }
