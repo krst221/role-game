@@ -58,15 +58,15 @@ const printStats = (character, div) => {
         const dpos = dmgf[i].indexOf('d');
         const mult = dmgf[i].substring(0 ,dpos);
         const dmg = dmgf[i].substring(dpos + 1, dmgf[i].length);
-        avg = dmg * 0.583;
+        avg = dmg/2 + 0.5;
         dmgt += mult*dmg;
         avgt += mult*avg;
     }
     avgt = avgt.toFixed(0);
-    dmg$$.textContent = 'Max damage: ' + dmgt;
-    avg$$.textContent = 'Average damage: ' + avgt;
-    def$$.textContent = 'Defense: ' + defense;
-    vit$$.textContent = 'Vitality: ' + vitality;
+    dmg$$.textContent = 'Daño maximo: ' + dmgt;
+    avg$$.textContent = 'Daño medio: ' + avgt;
+    def$$.textContent = 'Defensa: ' + defense;
+    vit$$.textContent = 'Vitalidad: ' + vitality;
     div.appendChild(dmg$$);
     div.appendChild(avg$$);
     div.appendChild(def$$);
