@@ -18,7 +18,7 @@ let gameOver = false;
 
 const getCharacters = async () => {
     try {
-        const res = await fetch('http://localhost:3000/characters');
+        const res = await fetch('https://my-json-server.typicode.com/krst221/role-game/characters');
         characters = await res.json();
         printCharacters(characters);
     } catch (error) {
