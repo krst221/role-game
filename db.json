@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Humano",
-      "avatar": "http://localhost:3000/assets/img/humano.jpg",
+      "avatar": "https://raw.githubusercontent.com/krst221/role-game/master/assets/img/humano.jpg",
       "damage": [
         "6d6",
         "2d10",
@@ -16,7 +16,7 @@
     {
       "id": 2,
       "name": "Enano",
-      "avatar": "http://localhost:3000/assets/img/enano.jpg",
+      "avatar": "https://raw.githubusercontent.com/krst221/role-game/master/assets/img/enano.jpg",
       "damage": [
         "8d4",
         "3d10"
@@ -28,7 +28,7 @@
     {
       "id": 3,
       "name": "Licántropo",
-      "avatar": "http://localhost:3000/assets/img/licantropo.jpg",
+      "avatar": "https://raw.githubusercontent.com/krst221/role-game/master/assets/img/licantropo.jpg",
       "damage": [
         "4d10",
         "2d20"
@@ -40,7 +40,7 @@
     {
       "id": 1,
       "name": "Orco",
-      "avatar": "http://localhost:3000/assets/img/orco.jpg",
+      "avatar": "https://raw.githubusercontent.com/krst221/role-game/master/assets/img/orco.jpg",
       "damage": [
         "3d20"
       ],
@@ -51,7 +51,7 @@
     {
       "id": 1,
       "name": "Elfo",
-      "avatar": "http://localhost:3000/assets/img/elfo.jpg",
+      "avatar": "https://raw.githubusercontent.com/krst221/role-game/master/assets/img/elfo.jpg",
       "damage": [
         "12d6"
       ],
