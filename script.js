@@ -1,5 +1,5 @@
 const chars$$ = document.querySelector('[data-function="characters"]');
-const arena$$ = document.querySelector('[data-function="arena');
+const arena$$ = document.querySelector('[data-function="arena"]');
 const fight$$ = document.createElement('button');
 const select$$ = document.createElement('h2');
 select$$.textContent = 'Choose your fighters!';
