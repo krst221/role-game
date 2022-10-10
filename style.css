@@ -11,11 +11,11 @@ button:hover {
 
 p {
     line-height: 16px;
-    margin: 14px;
+    margin: 10px;
 }
 
 h2 {
-    margin-top: 10px;
+    margin-top: 10px 0px 4px 0px;
 }
 .c-characters{
     display: flex;
